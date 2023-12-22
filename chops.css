@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 50px 20px;
+}
+.nav-bar li {
+  list-style: none;
+}
+.nav-bar li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo img {
+  height: 30px;
+  width: 30px;
+}
+.main-content {
+  background: linear-gradient();
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/ai-generated-8302142_1280.jpg");
+  background-position: center;
+}
+.content {
+  text-align: center;
+}
+.content h3 {
+  padding: 0px 20px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: yellow;
+}
+.content h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.content img {
+  height: 60vh;
+  width: 55%;
+}
+.content button {
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background: yellow;
+  color: red;
+  font-weight: bolder;
+}
+.food-category {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-evenly;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 30px 0;
+}
+.food-category img {
+  height: 40px;
+  width: 40px;
+}
+.food h6{
+  font-weight: bolder;
+  font-size: 17px;
+}
+.offer {
+  padding: 50px 30px;
+}
+.main-offer{
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+}
+.left-banner {
+  background-color: aqua;
+  border-radius:20px 0 0 20px;
+  height: 102vh;
+  margin-right: 10px;
+  width: 50%;
+}
+.right-banner {
+  height: 70vh;
+  width: 50%;
+  display: block;
+}
+.right-1 {
+  background: linear-gradient();
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/sandwich-5930496_1280.jpg");
+  border-radius:0 20px 0 0;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.right-2 {
+  background: linear-gradient();
+  background-size: contain;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/ai-generated-8302142_1280.jpg");
+  border-radius:0 0 20px 0;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
+.bigger-banner{
+  background-color: yellow;
+  border-radius:20px 20px 20px 20px;
+  height: 70vh;
+  margin-bottom: 50px;
+}
+.divs-offer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.one{
+  border-radius:20px 0 0 20px;
+  height: 70vh;
+  width: 100%;
+  background-color: cadetblue;
+}
+.two{
+  height: 70vh;
+  width: 100%;
+  margin: 0 10px;
+  background-color: chartreuse;
+}
+.three{
+  height: 70vh;
+  width: 100%;
+  border-radius:0 20px 20px 0;
+  background-color: chocolate;
+}
